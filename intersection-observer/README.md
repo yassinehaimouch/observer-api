@@ -1,4 +1,4 @@
-## Intersection Observer API
+## Intersection Observer API - Infinite Scroll
 
 ### When we can need it?
 

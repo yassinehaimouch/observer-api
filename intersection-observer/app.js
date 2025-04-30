@@ -1,3 +1,5 @@
+// ############ Infinite Scroll ############
+
 import { fetchData } from "./utils/db.js";
 
 const [template, list, observerElement] = document.querySelectorAll(
@@ -6,7 +8,6 @@ const [template, list, observerElement] = document.querySelectorAll(
 
 const createCardElement = (title, content) => {
   const card = template.content.cloneNode(true).firstElementChild;
-  console.log(card);
   const [cardTitle, cardContent] = card.querySelectorAll(
     "#card__title, #card__content"
   );
